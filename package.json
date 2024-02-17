@@ -1,0 +1,13 @@
+{
+  "name": "studiversity",
+  "scripts": {
+    "packages": "dotenv -- pnpm --filter",
+    "app": "pnpm packages @studiversity/app",
+    "dev": "dotenv -- pnpm -r dev",
+    "build": "dotenv -- pnpm -r build",
+    "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.3.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Root"
+    },
+    {
+      "path": "./packages/ui",
+      "name": "App UI"
+    },
+    {
+      "path": "./packages/api",
+      "name": "Api"
+    },
+    {
+      "path": "./packages/base",
+      "name": "Base"
+    },
+    {
+      "path": "./apps/web",
+      "name": "Web App"
+    },
+    {
+      "path": "./apps/administrative",
+      "name": "Administrative"
+    },
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@studiversity/app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@iconify-json/fluent-emoji-flat": "^1.1.16",
+    "@iconify-json/mingcute": "^1.1.15",
+    "@iconify-json/svg-spinners": "^1.1.2",
+    "@iconify-json/tabler": "^1.1.103",
+    "@iconify-json/twemoji": "^1.1.15",
+    "@nuxt/devtools": "latest",
+    "@studiversity/ui": "workspace:^",
+    "nuxt": "^3.9.1",
+    "vue": "^3.4.13",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.10.4",
+    "@studiversity/base": "workspace:^",
+    "@studiversity/unocss": "workspace:^",
+    "@unocss/nuxt": "^0.58.3",
+    "wretch": "^2.8.0"
+  }
+}

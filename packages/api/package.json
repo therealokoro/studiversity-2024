@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@studiversity/api",
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev --port 4000",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nitropack": "latest"
+  }
+}

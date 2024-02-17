@@ -1,0 +1,7 @@
+{
+  "name": "@studiversity/unocss",
+  "private": false,
+  "dependencies": {
+    "unocss": "^0.58.3"
+  }
+}

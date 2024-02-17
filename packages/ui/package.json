@@ -1,0 +1,41 @@
+{
+  "name": "@studiversity/ui",
+  "private": false,
+  "engines": {
+    "node": ">=18.x"
+  },
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "clean": "rm -rf .nuxt dist .output node_modules yarn.lock package-lock.json && npm i",
+    "dev": "nuxt dev --port 3002",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "ui:add": "npx --yes ui-thing@latest add",
+    "ui:theme": "npx --yes ui-thing@latest theme",
+    "ui:prettier": "npx --yes ui-thing@latest prettier"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.10.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "@vueuse/core": "^10.7.1",
+    "@vueuse/nuxt": "^10.7.1",
+    "nuxt": "^3.9.1",
+    "nuxt-icon": "^0.6.8",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@morev/vue-transitions": "^2.3.6",
+    "@pinia/nuxt": "^0.5.1",
+    "@tanstack/vue-table": "^8.11.6",
+    "notivue": "^2.1.1",
+    "radix-vue": "^1.3.0",
+    "tailwind-variants": "^0.1.20"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

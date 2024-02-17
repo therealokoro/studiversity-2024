@@ -1,0 +1,55 @@
+/* @import url("https://rsms.me/inter/inter.css"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 213 25% 35%;
+    --card: var(--muted);
+    --card-foreground: var(--foreground);
+    --popover: var(--background);
+    --popover-foreground: var(--foreground);
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 0 0% 100%;
+    --muted: 210 100% 98%;
+    --muted-foreground: 210 24% 60%;
+    --secondary: var(--muted);
+    --secondary-foreground: var(--foreground);
+    --accent: var(--primary);
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: var(--primary-foreground);
+    --border: var(--muted);
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 216 12% 8%;
+    --foreground: 240 2% 89%;
+    --card: var(--muted);
+    --card-foreground: var(--foreground);
+    --popover: var(--muted);
+    --popover-foreground: var(--foreground);
+    --primary-foreground: 0 0% 100%;
+    --muted: 220 11% 11%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --border: var(--muted);
+    --input: 2220 10% 12%;
+    --ring: 224.3 76.3% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
